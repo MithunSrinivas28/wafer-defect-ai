@@ -1,4 +1,4 @@
-# Chippenheimer Labs — Wafer Defect Detection using Edge AI
+# EDGE-VISION — Wafer Defect Detection using Edge AI
 
 ## Overview
 
