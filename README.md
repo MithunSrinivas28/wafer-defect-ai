@@ -123,10 +123,4 @@ Hidden Layers: 1–2
 
 ---
 
-## 🚀 Pipeline
-
-
----
-
-## Project Structure
 
