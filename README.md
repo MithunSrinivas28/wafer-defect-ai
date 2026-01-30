@@ -53,6 +53,79 @@ The dataset contains the following classes:
 - Export: ONNX / TensorFlow Lite
 - Version Control: Git, GitHub
 
+
+
+
+---
+
+## 🧠 Model Architecture
+
+- Algorithm: CNN + MobileNetV3-Small (Transfer Learning)
+- Base Model: Pretrained on ImageNet
+- Custom Layers:
+  - Global Average Pooling
+  - Dense (128)
+  - Dense (Number of Classes)
+
+Hidden Layers: 1–2
+
+---
+
+## ⚙️ Technologies Used
+
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Google Colab
+
+---
+
+## ⚡ Training Configuration
+
+- Activation (Hidden): ReLU
+- Activation (Output): Softmax
+- Optimizer: Adam
+- Learning Rate: 0.001
+- Batch Size: 32
+- Epochs: 10–20
+- Loss Function: Sparse Categorical Crossentropy
+- Metric: Accuracy
+
+---
+
+## 📏 Data Preprocessing
+
+- Resize: 224 × 224
+- Grayscale Conversion
+- Normalization: /255 (0–1 range)
+- Data Augmentation:
+  - Rotation
+  - Flip
+  - Zoom
+
+---
+
+## 📈 Explainable AI
+
+- Technique: Grad-CAM Heatmaps
+- Purpose: Visualize defect regions
+- Used during testing and demo
+- Not included in deployed model
+
+---
+
+## 📦 Model Optimization
+
+- Transfer Learning
+- Quantization (INT8) for edge deployment
+- Target Model Size: < 3 MB
+
+---
+
+## 🚀 Pipeline
+
+
 ---
 
 ## Project Structure
