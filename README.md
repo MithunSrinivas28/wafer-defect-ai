@@ -60,6 +60,7 @@ The dataset contains the following classes:
 
 ## 🧠 Model Architecture
 
+
 - Algorithm: CNN + MobileNetV3-Small (Transfer Learning)
 - Base Model: Pretrained on ImageNet
 - Custom Layers:
