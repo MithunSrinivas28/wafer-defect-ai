@@ -182,7 +182,6 @@ This project demonstrates the transition from prototype to deployable system.
 - Open Source Community
 
 Thank you for reviewing WaferGuard AI.
-```
 
 
 
