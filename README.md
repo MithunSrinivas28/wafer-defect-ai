@@ -2,7 +2,13 @@
 # Edge Vision AI
 ## Edge-Based Wafer Defect Detection Intelligence
 
-WaferGuard AI is an end-to-end artificial intelligence system for automated wafer defect detection, explainability, and deployment on NXP edge devices. The project is designed for real-time, low-power, and scalable semiconductor quality inspection.
+Edge Vision AI is an end-to-end artificial intelligence system for automated wafer defect detection, explainability, and deployment on NXP edge devices. The project is designed for real-time, low-power, and scalable semiconductor quality inspection.
+
+
+##🔗 Project Resources
+### [Dataset](https://drive.google.com/drive/folders/1PUNt98RTBxysWNoiKDndP9RSrii3a-W_?usp=drive_link)
+### [Wafer Inspection Pipeline](https://drive.google.com/drive/folders/1tdnG_Y7DRLddYSVOkuULijsVjdHvX67F?usp=sharing)
+
 
 ## Problem Statement
 Manual wafer inspection in semiconductor manufacturing is:
@@ -69,10 +75,9 @@ Training and deployment pipelines are separated for optimization and reliability
 ## Technology Stack
 - **Machine Learning**: TensorFlow, Keras, NumPy
 - **Image Processing**: OpenCV
-- **Explainability**: Grad-CAM, Matplotlib
 - **Data Management**: Pandas, CSV
 - **Deployment**: TensorFlow Lite, NXP eIQ Toolkit, C/C++
-- **Development Tools**: Python, Google Colab, Jupyter, GitHub
+- **Development Tools**: Python, Google Colab, GitHub
 
 ---
 
@@ -125,7 +130,7 @@ Performance varies based on dataset and hardware configuration.
 ## Model Accuracy and Validation Performance
 
 - **Training Accuracy**: ~69%  
-- **Validation Accuracy**: ~70%  
+- **Validation Accuracy**: ~79%  
 
 ### Definition
 
