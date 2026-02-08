@@ -1,127 +1,189 @@
-# EDGE-VISION — Wafer Defect Detection using Edge AI
 
-## Overview
+# Edge Vision AI
+## Edge-Based Wafer Defect Detection Intelligence
 
-This project implements a lightweight deep learning system for automated defect detection in semiconductor wafer inspection images. The model classifies microscope images into clean and defective categories, enabling faster quality control and reduced manual inspection in semiconductor manufacturing environments.
-
-The solution is designed for edge deployment, prioritizing low latency, small model size, and high portability.
-
----
+WaferGuard AI is an end-to-end artificial intelligence system for automated wafer defect detection, explainability, and deployment on NXP edge devices. The project is designed for real-time, low-power, and scalable semiconductor quality inspection.
 
 ## Problem Statement
+Manual wafer inspection in semiconductor manufacturing is:
+- Time-consuming
+- Error-prone
+- Expensive
+- Difficult to scale
 
-Modern semiconductor fabrication generates large volumes of high-resolution inspection images. Manual analysis and centralized cloud processing introduce latency, cost, and scalability limitations.
-
-This project addresses these challenges by building an on-device AI model capable of detecting wafer defects in real time.
-
----
-
-## Key Features
-
-- Multi-class defect classification
-- Lightweight CNN architecture for edge deployment
-- Transfer learning using pretrained vision models
-- Grayscale image preprocessing
-- Exportable to ONNX/TFLite formats
-- Modular training and evaluation pipeline
+Conventional inspection systems lack flexibility and real-time intelligence. Industries require a lightweight, automated, and reliable solution for high-volume production environments.
 
 ---
 
-## Defect Categories
+## Proposed Solution
+WaferGuard AI provides an intelligent inspection pipeline that:
+- Automatically classifies wafer defects
+- Runs efficiently on edge hardware
+- Explains model predictions
+- Learns from uncertain samples
+- Operates in offline environments
 
-The dataset contains the following classes:
+This enables consistent, accurate, and scalable quality control.
 
-- Clean
-- Crack
-- Scratch
-- Particle
-- Void
-- Bridge
-- Other
+---
 
-(Exact categories may vary based on dataset availability.)
+## System Overview
+The system follows a modular pipeline:
+
+```plaintext
+Image Acquisition → Preprocessing → AI Inference → Confidence Evaluation
+                                           ↓
+                                Explainable AI Visualization
+                                           ↓
+                               Edge Deployment and Monitoring
+```
+
+Training and deployment pipelines are separated for optimization and reliability.
+
+---
+
+## Key Innovations
+- **Lightweight AI Architecture**
+  - Compact CNN model (~5 MB)
+  - Optimized for embedded deployment
+  - Low latency inference
+
+- **Explainable AI Framework**
+  - Grad-CAM heatmaps
+  - Defect localization
+  - Severity estimation
+  - Text-based interpretation
+
+- **Self-Learning Mechanism**
+  - Automatic storage of low-confidence samples
+  - Enables continuous improvement
+  - Reduces manual labeling effort
+
+- **Edge AI Deployment**
+  - INT8 quantized model
+  - Compatible with NXP eIQ toolkit
+  - Real-time inference on microcontrollers
+
+- **Smart Analytics**
+  - Batch inspection system
+  - Yield computation
+  - CSV-based logging
+  - Offline synchronization
 
 ---
 
 ## Technology Stack
-
-- Language: Python 3.9+
-- Framework: PyTorch
-- Vision Library: torchvision
-- Image Processing: OpenCV, Pillow
-- Model: MobileNetV2 / EfficientNet-B0
-- Export: ONNX / TensorFlow Lite
-- Version Control: Git, GitHub
-
-
-
+- **Machine Learning**: TensorFlow, Keras, NumPy
+- **Image Processing**: OpenCV
+- **Explainability**: Grad-CAM, Matplotlib
+- **Data Management**: Pandas, CSV
+- **Deployment**: TensorFlow Lite, NXP eIQ Toolkit, C/C++
+- **Development Tools**: Python, Google Colab, Jupyter, GitHub
 
 ---
 
-## 🧠 Model Architecture
-
-
-- Algorithm: CNN + MobileNetV3-Small (Transfer Learning)
-- Base Model: Pretrained on ImageNet
-- Custom Layers:
-  - Global Average Pooling
-  - Dense (128)
-  - Dense (Number of Classes)
-
-Hidden Layers: 1–2
-
----
-
-## ⚙️ Technologies Used
-
-- Python
-- TensorFlow / Keras
-- NumPy
-- Matplotlib
-- Google Colab
+## Project Structure
+```plaintext
+waferguard-ai
+│
+├── notebooks (Training and Pipeline)
+├── models (Saved Models)
+├── datasets (Self-learning data)
+├── results (Logs and CSV files)
+├── edge (NXP firmware files)
+├── assets (Images and diagrams)
+└── README.md
+```
 
 ---
 
-## ⚡ Training Configuration
+## System Workflow
+### Step 1: Data Input
+Wafer images are captured using camera modules or uploaded manually.
 
-- Activation (Hidden): ReLU
-- Activation (Output): Softmax
-- Optimizer: Adam
-- Learning Rate: 0.001
-- Batch Size: 32
-- Epochs: 10–20
-- Loss Function: Sparse Categorical Crossentropy
-- Metric: Accuracy
+### Step 2: Preprocessing
+Images are resized, normalized, and formatted for model input.
 
----
+### Step 3: Inference
+The CNN model predicts defect class and confidence score.
 
-## 📏 Data Preprocessing
+### Step 4: Confidence Evaluation
+- High confidence → Accepted result
+- Low confidence → Stored for retraining
 
-- Resize: 224 × 224
-- Grayscale Conversion
-- Normalization: /255 (0–1 range)
-- Data Augmentation:
-  - Rotation
-  - Flip
-  - Zoom
+### Step 5: Explainability
+Grad-CAM generates visual explanations highlighting defect regions.
+
+### Step 6: Edge Deployment
+Optimized model runs on NXP hardware for real-time inspection.
 
 ---
 
-## 📈 Explainable AI
+## Performance Summary
+- **Model Size**: ~5 MB
+- **Accuracy**: 75%+
+- **Inference Speed**: Real-time
+- **Memory Usage**: Low
 
-- Technique: Grad-CAM Heatmaps
-- Purpose: Visualize defect regions
-- Used during testing and demo
-- Not included in deployed model
+Performance varies based on dataset and hardware configuration.
+
+---
+
+## Impact
+
+### Industrial Impact
+- Reduced inspection costs
+- Improved manufacturing yield
+- Faster quality validation
+
+### Technical Impact
+- Promotes Edge AI adoption
+- Improves model transparency
+- Enables scalable deployment
+
+### Innovation Impact
+- Combines XAI and embedded AI
+- Supports adaptive learning
+- Bridges research and production
 
 ---
 
-## 📦 Model Optimization
+## Hackathon Highlights
+- Complete end-to-end solution
+- Edge-ready deployment
+- Explainable decision system
+- Self-learning pipeline
+- Industry-focused design
 
-- Transfer Learning
-- Quantization (INT8) for edge deployment
-- Target Model Size: < 3 MB
+This project demonstrates the transition from prototype to deployable system.
 
 ---
+
+## Future Enhancements
+- Automated retraining pipeline
+- Cloud-based monitoring dashboard
+- Live camera integration
+- Multi-device deployment
+- Predictive maintenance features
+
+---
+
+## Team
+- **Khushi Mittal**  
+  
+
+- **Mithun Srinivas**  
+
+---
+
+## Acknowledgements
+- Hackathon Organizers
+- NXP eIQ Platform
+- Open Source Community
+
+Thank you for reviewing WaferGuard AI.
+```
+
+
 
 
