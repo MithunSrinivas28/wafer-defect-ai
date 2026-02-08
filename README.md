@@ -114,7 +114,7 @@ Optimized model runs on NXP hardware for real-time inspection.
 ---
 
 ## Performance Summary
-- **Model Size**: ~5 MB
+- **Model Size**: 1.9 MB
 - **Accuracy**: 75%+
 - **Inference Speed**: Real-time
 - **Memory Usage**: Low
