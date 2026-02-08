@@ -48,12 +48,6 @@ Training and deployment pipelines are separated for optimization and reliability
   - Optimized for embedded deployment
   - Low latency inference
 
-- **Explainable AI Framework**
-  - Grad-CAM heatmaps
-  - Defect localization
-  - Severity estimation
-  - Text-based interpretation
-
 - **Self-Learning Mechanism**
   - Automatic storage of low-confidence samples
   - Enables continuous improvement
@@ -169,10 +163,9 @@ This project demonstrates the transition from prototype to deployable system.
 ---
 
 ## Team
-- **Khushi Mittal**  
-  
+- [Khushi Mittal](https://github.com/khushimittal1209-afk)
+- [Mithun Srinivas](https://github.com/MithunSrinivas28)
 
-- **Mithun Srinivas**  
 
 ---
 
