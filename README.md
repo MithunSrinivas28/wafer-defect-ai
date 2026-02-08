@@ -9,6 +9,9 @@ Edge Vision AI is an end-to-end artificial intelligence system for automated waf
 ### [Dataset](https://drive.google.com/drive/folders/1PUNt98RTBxysWNoiKDndP9RSrii3a-W_?usp=drive_link)
 ### [Wafer Inspection Pipeline](https://drive.google.com/drive/folders/1tdnG_Y7DRLddYSVOkuULijsVjdHvX67F?usp=sharing)
 
+## 🎥 Demo Video
+
+[Click here to watch the project demo](https://drive.google.com/file/d/1Ki0E7Ki41A_NLVaYZ_79rIJnnP1FOWBb/view?usp=drive_link)
 
 ## Problem Statement
 Manual wafer inspection in semiconductor manufacturing is slow, costly, error‑prone, and difficult to scale for high‑volume production. Existing inspection systems lack real‑time intelligence and flexibility, creating a need for a lightweight, automated, and reliable solution.
