@@ -122,6 +122,28 @@ Optimized model runs on NXP hardware for real-time inspection.
 Performance varies based on dataset and hardware configuration.
 
 ---
+## Model Accuracy and Validation Performance
+
+- **Training Accuracy**: ~69%  
+- **Validation Accuracy**: ~70%  
+
+### Definition
+
+**Training Accuracy** represents how well the model learns patterns from the training dataset.  
+It indicates the model’s ability to fit known data.
+
+**Validation Accuracy** represents how well the trained model performs on unseen data.  
+It measures the model’s generalization capability in real-world scenarios.
+
+### Interpretation
+
+The close alignment between training and validation accuracy indicates:
+
+- Minimal overfitting  
+- Stable learning behavior  
+- Good generalization performance  
+
+This balance confirms that the model performs consistently on both known and unknown wafer images.
 
 ## Impact
 
