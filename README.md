@@ -76,6 +76,32 @@ Training and deployment pipelines are separated for optimization and reliability
 
 ---
 
+## Dataset File Structure
+Dataset/
+│
+├── Train/
+│   ├── bridge/
+│   ├── clean/
+│   ├── cmp/
+│   ├── crack/
+│   ├── ler/
+│   ├── open/
+│   ├── others/
+│   └── vias/
+│
+├── Validation/
+│   ├── bridge/
+│   ├── clean/
+│   ├── cmp/
+│   ├── crack/
+│   ├── ler/
+│   ├── open/
+│   ├── others/
+│   └── vias/
+│
+└── Self-learning/
+    └── low_confidence_samples/
+
 ---
 
 ## Technology Stack
