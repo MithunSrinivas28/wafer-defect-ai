@@ -21,6 +21,22 @@ Edge Vision AI provides an intelligent inspection pipeline that:
 - Learns from uncertain samples
 - Operates in offline environments
 
+---
+# 🚀 Performance Summary (Key Highlights)
+
+| Metric | Result |
+|--------|--------|
+| **Model Size** | **1.9 MB** |
+| **Accuracy** | **75%+ overall** |
+| **Training Accuracy** | ~69% |
+| **Validation Accuracy** | ~79% |
+| **Inference Speed** | Real-time |
+| **Memory Usage** | Low |
+| **Deployment** | Edge-ready (NXP compatible) |
+
+
+---
+
 ## Key Innovations
 
 - **Lightweight Edge AI**
@@ -40,21 +56,6 @@ Edge Vision AI provides an intelligent inspection pipeline that:
   - CSV logging with offline support  
 
 
----
-# 🚀 Performance Summary (Key Highlights)
-
-| Metric | Result |
-|--------|--------|
-| **Model Size** | **1.9 MB** |
-| **Accuracy** | **75%+ overall** |
-| **Training Accuracy** | ~69% |
-| **Validation Accuracy** | ~79% |
-| **Inference Speed** | Real-time |
-| **Memory Usage** | Low |
-| **Deployment** | Edge-ready (NXP compatible) |
-
-
----
 ## Model Accuracy and Validation Performance
 
 - **Training Accuracy**: ~69%  
