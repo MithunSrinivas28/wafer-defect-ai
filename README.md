@@ -5,7 +5,7 @@
 Edge Vision AI is an end-to-end artificial intelligence system for automated wafer defect detection, explainability, and deployment on NXP edge devices. The project is designed for real-time, low-power, and scalable semiconductor quality inspection.
 
 
-## 🔗 Project Resources
+##  Project Resources
 ### [Dataset](https://drive.google.com/drive/folders/1PUNt98RTBxysWNoiKDndP9RSrii3a-W_?usp=drive_link)
 ### [Wafer Inspection Pipeline](https://drive.google.com/drive/folders/1tdnG_Y7DRLddYSVOkuULijsVjdHvX67F?usp=sharing)
 
@@ -22,7 +22,7 @@ Edge Vision AI provides an intelligent inspection pipeline that:
 - Operates in offline environments
 
 ---
-# 🚀 Performance Summary (Key Highlights)
+# 🚀 Performance Snapshot(Key Highlights)
 
 | Metric | Result |
 |--------|--------|
@@ -142,14 +142,6 @@ Optimized model runs on NXP hardware for real-time inspection.
 
 ---
 
-### Definition
-
-**Training Accuracy** represents how well the model learns patterns from the training dataset.  
-It indicates the model’s ability to fit known data.
-
-**Validation Accuracy** represents how well the trained model performs on unseen data.  
-It measures the model’s generalization capability in real-world scenarios.
-
 ### Interpretation
 
 The close alignment between training and validation accuracy indicates:
@@ -205,6 +197,15 @@ This project demonstrates the transition from prototype to deployable system.
 
 
 ---
+### Definition
+
+**Training Accuracy** represents how well the model learns patterns from the training dataset.  
+It indicates the model’s ability to fit known data.
+
+**Validation Accuracy** represents how well the trained model performs on unseen data.  
+It measures the model’s generalization capability in real-world scenarios.
+---
+
 
 ## Acknowledgements
 - Hackathon Organizers
