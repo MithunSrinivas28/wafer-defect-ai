@@ -32,6 +32,41 @@ WaferGuard AI provides an intelligent inspection pipeline that:
 This enables consistent, accurate, and scalable quality control.
 
 ---
+## Key Innovations
+- **Lightweight AI Architecture**
+  - Compact CNN model (~5 MB)
+  - Optimized for embedded deployment
+  - Low latency inference
+
+- **Self-Learning Mechanism**
+  - Automatic storage of low-confidence samples
+  - Enables continuous improvement
+  - Reduces manual labeling effort
+
+- **Edge AI Deployment**
+  - INT8 quantized model
+  - Compatible with NXP eIQ toolkit
+  - Real-time inference on microcontrollers
+
+- **Smart Analytics**
+  - Batch inspection system
+  - Yield computation
+  - CSV-based logging
+  - Offline synchronization
+
+## Performance Summary
+- **Model Size**: 1.9 MB
+- **Accuracy**: 75%+
+- **Inference Speed**: Real-time
+- **Memory Usage**: Low
+
+Performance varies based on dataset and hardware configuration.
+
+---
+## Model Accuracy and Validation Performance
+
+- **Training Accuracy**: ~69%  
+- **Validation Accuracy**: ~79%  
 
 ## System Overview
 The system follows a modular pipeline:
@@ -117,20 +152,6 @@ Grad-CAM generates visual explanations highlighting defect regions.
 Optimized model runs on NXP hardware for real-time inspection.
 
 ---
-
-## Performance Summary
-- **Model Size**: 1.9 MB
-- **Accuracy**: 75%+
-- **Inference Speed**: Real-time
-- **Memory Usage**: Low
-
-Performance varies based on dataset and hardware configuration.
-
----
-## Model Accuracy and Validation Performance
-
-- **Training Accuracy**: ~69%  
-- **Validation Accuracy**: ~79%  
 
 ### Definition
 
