@@ -185,7 +185,7 @@ This project demonstrates the transition from prototype to deployable system.
 ---
 
 ## Team
-- [Khushi Mittal](https://github.com/khushimittal1209-afk)
+- [Khusi Mittal](https://github.com/khushimittal1209-afk)
 - [Mithun Srinivas](https://github.com/MithunSrinivas28)
 
 
