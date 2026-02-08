@@ -11,56 +11,48 @@ Edge Vision AI is an end-to-end artificial intelligence system for automated waf
 
 
 ## Problem Statement
-Manual wafer inspection in semiconductor manufacturing is:
-- Time-consuming
-- Error-prone
-- Expensive
-- Difficult to scale
-
-Conventional inspection systems lack flexibility and real-time intelligence. Industries require a lightweight, automated, and reliable solution for high-volume production environments.
-
----
+Manual wafer inspection in semiconductor manufacturing is slow, costly, error‑prone, and difficult to scale for high‑volume production. Existing inspection systems lack real‑time intelligence and flexibility, creating a need for a lightweight, automated, and reliable solution.
 
 ## Proposed Solution
-WaferGuard AI provides an intelligent inspection pipeline that:
+Edge Vision AI provides an intelligent inspection pipeline that:
 - Automatically classifies wafer defects
 - Runs efficiently on edge hardware
 - Explains model predictions
 - Learns from uncertain samples
 - Operates in offline environments
 
-This enables consistent, accurate, and scalable quality control.
-
----
 ## Key Innovations
-- **Lightweight AI Architecture**
-  - Compact CNN model (~5 MB)
-  - Optimized for embedded deployment
-  - Low latency inference
 
-- **Self-Learning Mechanism**
-  - Automatic storage of low-confidence samples
-  - Enables continuous improvement
-  - Reduces manual labeling effort
+- **Lightweight Edge AI**
+  - Compact, embedded‑ready CNN  
+  - Low‑latency, real‑time inference  
 
-- **Edge AI Deployment**
-  - INT8 quantized model
-  - Compatible with NXP eIQ toolkit
-  - Real-time inference on microcontrollers
+- **Self‑Learning System**
+  - Automatically stores low‑confidence cases  
+  - Model keeps improving with new data  
+
+- **Edge Deployment**
+  - INT8 quantized model  
+  - Runs on NXP hardware with eIQ support  
 
 - **Smart Analytics**
-  - Batch inspection system
-  - Yield computation
-  - CSV-based logging
-  - Offline synchronization
+  - Batch inspection + yield calculation  
+  - CSV logging with offline support  
 
-## Performance Summary
-- **Model Size**: 1.9 MB
-- **Accuracy**: 75%+
-- **Inference Speed**: Real-time
-- **Memory Usage**: Low
 
-Performance varies based on dataset and hardware configuration.
+---
+# 🚀 Performance Summary (Key Highlights)
+
+| Metric | Result |
+|--------|--------|
+| **Model Size** | **1.9 MB** |
+| **Accuracy** | **75%+ overall** |
+| **Training Accuracy** | ~69% |
+| **Validation Accuracy** | ~79% |
+| **Inference Speed** | Real-time |
+| **Memory Usage** | Low |
+| **Deployment** | Edge-ready (NXP compatible) |
+
 
 ---
 ## Model Accuracy and Validation Performance
@@ -83,28 +75,6 @@ Training and deployment pipelines are separated for optimization and reliability
 
 ---
 
-## Key Innovations
-- **Lightweight AI Architecture**
-  - Compact CNN model (~5 MB)
-  - Optimized for embedded deployment
-  - Low latency inference
-
-- **Self-Learning Mechanism**
-  - Automatic storage of low-confidence samples
-  - Enables continuous improvement
-  - Reduces manual labeling effort
-
-- **Edge AI Deployment**
-  - INT8 quantized model
-  - Compatible with NXP eIQ toolkit
-  - Real-time inference on microcontrollers
-
-- **Smart Analytics**
-  - Batch inspection system
-  - Yield computation
-  - CSV-based logging
-  - Offline synchronization
-
 ---
 
 ## Technology Stack
@@ -117,17 +87,7 @@ Training and deployment pipelines are separated for optimization and reliability
 ---
 
 ## Project Structure
-```plaintext
-waferguard-ai
-│
-├── notebooks (Training and Pipeline)
-├── models (Saved Models)
-├── datasets (Self-learning data)
-├── results (Logs and CSV files)
-├── edge (NXP firmware files)
-├── assets (Images and diagrams)
-└── README.md
-```
+
 
 ---
 
