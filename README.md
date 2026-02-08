@@ -5,7 +5,7 @@
 Edge Vision AI is an end-to-end artificial intelligence system for automated wafer defect detection, explainability, and deployment on NXP edge devices. The project is designed for real-time, low-power, and scalable semiconductor quality inspection.
 
 
-##🔗 Project Resources
+## 🔗 Project Resources
 ### [Dataset](https://drive.google.com/drive/folders/1PUNt98RTBxysWNoiKDndP9RSrii3a-W_?usp=drive_link)
 ### [Wafer Inspection Pipeline](https://drive.google.com/drive/folders/1tdnG_Y7DRLddYSVOkuULijsVjdHvX67F?usp=sharing)
 
