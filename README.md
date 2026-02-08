@@ -201,11 +201,11 @@ This project demonstrates the transition from prototype to deployable system.
 
 ---
 ### Definition
-
-**Training Accuracy** represents how well the model learns patterns from the training dataset.  
+Training Accuracy represents how well the model learns patterns from the training dataset.  
 It indicates the model’s ability to fit known data.
-**Validation Accuracy**  represents how well the trained model performs on unseen data.  
+Validation Accuracy  represents how well the trained model performs on unseen data.  
 It measures the model’s generalization capability in real-world scenarios.
+
 ---
 
 ## Acknowledgements
