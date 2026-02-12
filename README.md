@@ -36,6 +36,7 @@ Edge Vision AI provides an intelligent inspection pipeline that:
 | **Inference Speed** | Real-time |
 | **Memory Usage** | Low |
 | **Deployment** | Edge-ready (NXP compatible) |
+| **Training Time** | ~5 mins |
 
 
 ---
